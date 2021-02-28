@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+position: relative;
+max-width: 80px;
+}
+
+header ul
+{
+position: relative;
+display: inline-flex;
+
+
+}
+header ul li
+{
+list-style: none;
+
+}
+header ul li a
+{
+    display: inline-block;
+    margin-left: 60px;
+    
+    margin-top: -30px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 70px;
+}
+.content .textBox
+{
+    position: absolute;
+    max-width: 1000px;
+}
+.content .textBox h2
+{
+    text-align: center;
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span
+{
+    color: #017143;
+    font-size: xx-large;
+    font-weight: 700;
+}
+.content .textBox p
+{
+    color: black;
+    font-size: medium;
+}
+#about{
+  background-color: #017143;
+  margin-top: 79px;
+  color: white;
+  font-size: medium;
+}
+#about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12 a
+{
+  font-size: large;
+  color:#eee;
+}
+
+#about .container{
+  width: 100%;
+  padding: 55px;
+}
+
+#about .container.footer .col-lg-6.col-md-6.col-sm-12.col-xs-12{
+  font-family:petitamedium;
+  color:#eee;
+}
+
+.input-group.input-group-lg{
+  margin-top:23px;
+}
+
+#icon{
+  color:white;
+  font-size:37px;
+  margin-top:20px;
+  position:static;
+}
+
+#icon i.fa.fa-facebook-official{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-twitter-square{
+  margin-left:17px;
+}
+
+#icon i.fa.fa-youtube-play{
+  margin-left:17px;
+}
+
+#kaki{
+  color:#f8f8f8;
+  background-color: #0f1517;
+}
